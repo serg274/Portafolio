@@ -20,6 +20,7 @@
   --max-width: 1200px;
   --font: "raleway", "sans-serif";
   --header-height: 4rem;
+  background-color: hsl(285, 67%, 24%,.2);
 }
 /* ********  RESET  ************ */
 html {
