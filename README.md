@@ -1,5 +1,5 @@
-# portafolio
+# Portfolio
 portfolio-cv
 
 ## Proyecto
-[landing page de tipo Portafolio](https://serg274.github.io/portfolio/)
+[landing page de tipo Portfolio](https://serg274.github.io/Portfolio/)
