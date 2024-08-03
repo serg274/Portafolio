@@ -1,7 +1,7 @@
 /* ******** custom properties ******* */
 :root {
   --carrusel-bg-color: #bcdddb04;
-  --first-color: #dc3680;
+  --first-color: #dc5736;
   --first-alpha-color: rgba(52, 51, 11, 0.75);
   --second-color: #14192d;
   --second-alpha-color: rgba(20, 25, 45, 0.75);
@@ -9,7 +9,7 @@
   --third-alpha-color: rgba(80, 20, 100, 0.75);
   --white-color: #fcf8f8;
   --gray-light-color: #f1ecec;
-  --gray-color: #ccc;
+  --gray-color: #ec0808;
   --gray-dark-color: #666;
   --black-color: #000;
   --link-color: #5057e3;
@@ -206,7 +206,7 @@ p {
   margin-top: 2rem;
   width: 4rem;
   height: 4rem;
-  fill: var(--first-color);
+  fill: #dc5736;
 }
 .modal#gracias:target {
   opacity: 1;
@@ -262,7 +262,7 @@ p {
   background-color: var(--second-color);
 }
 .menu-btn svg {
-  fill: var(--first-color);
+  fill: #dc5736;
 }
 
 .menu {
@@ -338,7 +338,7 @@ p {
 .modal-close svg {
   width: 3rem;
   height: 3rem;
-  fill: var(--first-color);
+  fill: #dc5736;
 }
 
 .modal[id|="trabajo"]:target {
@@ -466,7 +466,7 @@ progress::-moz-progress-bar {
 .contact-card > svg {
   width: 3rem;
   height: 3rem;
-  fill: var(--first-color);
+  fill: #dc5736;
 }
 .contact-card > small {
   margin-top: 1.5rem;
@@ -565,7 +565,7 @@ footer {
 }
 .service-card svg {
   margin-bottom: 1.25rem;
-  fill: var(--first-color);
+  fill: #dc5736;
 }
 .social-media a {
   padding: 0 0.6rem;
