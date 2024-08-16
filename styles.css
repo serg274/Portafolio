@@ -1,33 +1,32 @@
 /* ******** custom properties ******* */
 :root {
   --carrusel-bg-color: #bcdddb04;
-  --first-color: #d90062;
-  --first-alpha-color: rgba(217, 0, 98, 0.75);
+  --first-color: #dc5736;
+  --first-alpha-color: rgba(52, 51, 11, 0.75);
   --second-color: #14192d;
   --second-alpha-color: rgba(20, 25, 45, 0.75);
   --third-color: #501464;
   --third-alpha-color: rgba(80, 20, 100, 0.75);
-  --white-color: #fff;
-  --gray-light-color: #f3f3f3;
-  --gray-color: #ccc;
+  --white-color: #fcf8f8;
+  --gray-light-color: #f1ecec;
+  --gray-color: #ec0808;
   --gray-dark-color: #666;
   --black-color: #000;
-  --link-color: #509ee3;
+  --link-color: #5057e3;
   --title-color: #333;
   --text-color: #222;
   --white-alpha-color: rgba(255, 255, 255, 0.404);
   --black-alpha-color: rgba(0, 0, 0, 0.5);
   --max-width: 1200px;
   --font: "raleway", "sans-serif";
-  --header-height: 4rem;
-  --background-color: hsl(285, 67%, 24%,.2);
+  --header-height: 6rem;
+  --background-color: hsl(285, 67%, 24%, 0.2);
 }
 /* ********  RESET  ************ */
 html {
   box-sizing: border-box;
   font-family: var(--font);
   font-size: 16px;
-  scroll-behavior: smooth;
 }
 *,
 *::after,
@@ -127,7 +126,7 @@ p {
 .carrusel label {
   border: medium solid var(--gray-dark-color);
   border-radius: 50%;
-  margin: 0 0.25rem;
+  margin: 0 0.35rem;
   display: inline-block;
   width: 0.75rem;
   height: 0.75rem;
@@ -207,7 +206,7 @@ p {
   margin-top: 2rem;
   width: 4rem;
   height: 4rem;
-  fill: var(--first-color);
+  fill: #dc5736;
 }
 .modal#gracias:target {
   opacity: 1;
@@ -263,7 +262,7 @@ p {
   background-color: var(--second-color);
 }
 .menu-btn svg {
-  fill: var(--first-color);
+  fill: #dc5736;
 }
 
 .menu {
@@ -339,7 +338,7 @@ p {
 .modal-close svg {
   width: 3rem;
   height: 3rem;
-  fill: var(--first-color);
+  fill: #dc5736;
 }
 
 .modal[id|="trabajo"]:target {
@@ -467,7 +466,7 @@ progress::-moz-progress-bar {
 .contact-card > svg {
   width: 3rem;
   height: 3rem;
-  fill: var(--first-color);
+  fill: #dc5736;
 }
 .contact-card > small {
   margin-top: 1.5rem;
@@ -479,6 +478,7 @@ footer {
   color: var(--white-color);
   background-color: var(--third-color);
 }
+
 
 .header {
   position: fixed;
@@ -501,6 +501,13 @@ footer {
   font-size: 2rem;
   text-decoration: none;
 }
+
+.menu_nav_logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
 .portfolio-card {
   position: relative;
   width: 100%;
@@ -565,7 +572,7 @@ footer {
 }
 .service-card svg {
   margin-bottom: 1.25rem;
-  fill: var(--first-color);
+  fill: #dc5736;
 }
 .social-media a {
   padding: 0 0.6rem;
@@ -622,9 +629,9 @@ footer {
   }
 
   .header {
-    position: sticky;
+    position: relative;
     top: 0;
-    padding: 0.5rem;
+    padding: 0.9rem;
     height: calc(var(--header-height) - 0.5rem);
   }
   .portfolio > .container {
