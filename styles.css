@@ -501,6 +501,12 @@ footer {
   font-size: 2rem;
   text-decoration: none;
 }
+
+.menu_nav_logo{
+  width: 150px;
+  height: 150px;
+}
+
 .portfolio-card {
   position: relative;
   width: 100%;
