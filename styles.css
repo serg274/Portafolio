@@ -582,7 +582,7 @@ footer {
   flex-direction: row;
   color: var(--first-color);
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 
